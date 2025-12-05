@@ -8,7 +8,7 @@ export default function Hero() {
         .then((blob) => {
             const link = document.createElement("a")
             link.href = URL.createObjectURL(blob)
-            link.download = "Santhosh T - Frontend Developer.pdf"
+            link.download = "Santhosh T - MERN Full Stack Developer.pdf"
             document.body.appendChild(link)
             link.click()
             document.body.removeChild(link)
